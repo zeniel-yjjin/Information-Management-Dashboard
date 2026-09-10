@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>정보관리 점검 분석 시스템</title>
+
+    <!-- React (빌드 없이 CDN에서 바로 불러옵니다) -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <!-- 브라우저에서 바로 JSX를 해석해주는 Babel (별도 빌드 과정이 필요 없게 해줍니다) -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js" crossorigin></script>
+    <!-- 엑셀 파일 읽기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js" crossorigin></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel" data-presets="react" src="./app.js"></script>
+  </body>
+</html>
